@@ -1,0 +1,30 @@
+# --- KiCad (project/user local) ---
+*.kicad_prl
+fp-info-cache
+*.drl_job
+
+# --- KiCad backups/autosaves ---
+*-backups/
+*backups/
+_autosave-*
+*.bak
+*.tmp
+
+# --- Plot / fabrication outputs (ignore unless you keep them in a dedicated folder) ---
+*.gbr
+*.drl
+*.gbrjob
+*.pos
+*.rpt
+*.csv
+*.zip
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# KiCad backup variants
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_wks-bak
