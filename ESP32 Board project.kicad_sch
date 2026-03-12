@@ -963,227 +963,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FBMJ2125HM330-T:FBMJ2125HM330-T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -7.6244 5.0815 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "FBMJ2125HM330-T"
-				(at -7.63 -7.6266 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "FBMJ2125HM330-T:BEADC2012X105N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Taiyo Yuden"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "33 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 4A 8mOhm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "2012 Taiyo Yuden"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FBMJ2125HM330-T/Taiyo+Yuden/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "FBMJ2125HM330-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/FBMJ2125HM330-T/Taiyo+Yuden/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "FBMJ2125HM330-T_0_0"
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LM1117MPX-3.3:LM1117MPX-3.3"
 			(pin_names
 				(offset 1.016)
@@ -2248,7 +2027,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MCP73871-2CAI_ML:QFN50P400X400X100-21N"
+			(property "Footprint" "Footprints:QFN50P400X400X100-21N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2274,14 +2053,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "MF" "Microchip"
@@ -2404,10 +2175,26 @@
 					(hide yes)
 				)
 			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field-1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "MCP73871-2CAI_ML_0_0"
 				(rectangle
-					(start -15.24 -20.32)
-					(end 15.24 17.78)
+					(start -15.24 17.78)
+					(end 15.24 -20.32)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2624,7 +2411,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "20"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2643,24 +2430,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2787,6 +2556,26 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP73871-2CAI_ML_1_0"
+				(pin output line
+					(at 0 22.86 270)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4245,10 +4034,6 @@
 		(uuid "ffeb470d-2a9a-4af1-9df2-8d7a102abe7f")
 	)
 	(no_connect
-		(at 245.11 31.75)
-		(uuid "09506288-2580-4d87-96b4-1743a6081864")
-	)
-	(no_connect
 		(at 48.26 60.325)
 		(uuid "0e308515-41d9-4d72-ba3d-c254aa2650d5")
 	)
@@ -4838,16 +4623,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.745 23.495) (xy 250.19 23.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ce2b17-c745-4874-804b-33fd70386148")
-	)
-	(wire
-		(pts
 			(xy 95.25 67.945) (xy 99.06 67.945)
 		)
 		(stroke
@@ -5148,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 23.495) (xy 230.505 23.495)
+			(xy 224.79 23.495) (xy 250.19 23.495)
 		)
 		(stroke
 			(width 0)
@@ -7399,157 +7174,6 @@
 			(project "ESP32 Board project"
 				(path "/c99d1e6a-506e-41b0-84a4-68868b057b95"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FBMJ2125HM330-T:FBMJ2125HM330-T")
-		(at 238.125 23.495 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55a24051-8392-47b3-8c22-5256ddba624a")
-		(property "Reference" "FB1"
-			(at 232.029 21.971 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FBMJ2125HM330-T"
-			(at 235.077 18.161 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Footprints:BEADC2012X105N"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiyo Yuden"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "33 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0805 (2012 Metric) 4A 8mOhm"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "2012 Taiyo Yuden"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FBMJ2125HM330-T/Taiyo+Yuden/view-part/?ref=snap"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "FBMJ2125HM330-T"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/FBMJ2125HM330-T/Taiyo+Yuden/view-part/?ref=eda"
-			(at 238.125 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54ee88ac-680c-4000-8d8f-de48667c29b2")
-		)
-		(pin "2"
-			(uuid "bac9f77a-5339-401e-950c-8c4f3f6eab1d")
-		)
-		(instances
-			(project "ESP32 Board project"
-				(path "/c99d1e6a-506e-41b0-84a4-68868b057b95"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
